@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 }
+.btn{
+  text-transform: uppercase;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    background-color: #5da3d7;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.btn1{
+  text-transform: uppercase;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    background-color: #000;
+    font-size: 1.2em;
+
+}
+.btn:hover{
+  background: #000;
+  color: #fff;
+}
+.navbar{
+  padding: 20px 0;
+
+}
+.navbar-brand{
+ 
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.t{
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+.t:hover{
+  background: #000;
+  color: #fff;
+}
+#home{
+
+  background-color: #000;
+  
+}
+.navbar-nav.a{
+  color: #fff;
+}
+#home{
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.helper{
+  
+  display: flex;
+}
+.banner{
+  position: relative;
+  background-image: url('i.png');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+
+}
+.helper p{
+  background-color:#24ad5d ;
+  margin:  1em 0 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 500;
+  text-transform: lowercase;
+  line-height: 1.5em;
+}
+.banner h2{
+  margin: 0;
+  padding: 0;
+  font-size: 2,8em;
+  color: #09ff70;
+  font-weight: 1000;
+  
+}
+.banner p{
+  margin:  1em 0 0;
+  padding: 0;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5em;
+
+}
+
+.btnD1{
+
+  display: inline-block;
+  margin: 1em 0 0;
+  background: #26ff80;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  box-shadow: silver 2px 2px ;
+  font-weight: 800;
+}
+.btnD1:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-light .navbar-toggler-icon{
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
+}
+
+@media(max-width:768px )
+{
+.banner{
+    padding: 200px 0;
+
+
+}
+.banner h2{
+    font-size: 1.8em;
+}
 }
