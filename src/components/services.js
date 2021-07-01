@@ -1,6 +1,7 @@
 function Services() {
   return (
-    <div className="container">
+    <div style={{display:'flex',alignItems: 'center',justifyContent: 'center',height: '100%',
+    width:'100%', flexWrap: 'wrap'}}>
       <div className="box">
         <div className="icon"><p><i class="fas fa-hand-holding-usd"></i></p></div>
         <div className="content">
