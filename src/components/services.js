@@ -1,5 +1,6 @@
 function Services() {
   return (
+<<<<<<< HEAD
 
     <div className="main-div" id="Services" >
 
@@ -51,6 +52,24 @@ function Services() {
             </div>
           </div>
 
+=======
+    <div style={{display:'flex',alignItems: 'center',justifyContent: 'center',height: '100%',
+    width:'100%', flexWrap: 'wrap'}}>
+      <div className="box">
+        <div className="icon"><p><i class="fas fa-hand-holding-usd"></i></p></div>
+        <div className="content">
+          <h3>FUNDRAISING</h3>
+          <p>
+            {" "}
+            Fundraising is a significant way
+                <br /> that non-profit organizations may
+                <br />
+                obtain the money for their operations.
+                <br /> These operations can involve a very broad <br />
+                array of concerns such as religious or...
+          </p>
+          <a href="#">READ MORE</a>
+>>>>>>> b2b00560edccc214157d77eab591e6759fa328c3
         </div>
 
       </div>
